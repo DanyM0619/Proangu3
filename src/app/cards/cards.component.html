@@ -1,0 +1,17 @@
+<div class="container">
+    <mat-card *ngFor="let card of cards" class="card-material">
+      <mat-card-header>
+        <mat-card-title>{{ card.title }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="card.img">
+      <mat-card-content>
+        <p>
+          {{ card.desc }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div> 
