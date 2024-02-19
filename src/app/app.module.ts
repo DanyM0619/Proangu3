@@ -9,12 +9,16 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CardsComponent } from './cards/cards.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { DirectivesComponent } from './directives/directives.component';
+import { ResaltarParesDirective } from './directives/resaltar-pares.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardsComponent
+    CardsComponent,
+    DirectivesComponent,
+    ResaltarParesDirective
   ],
   imports: [
     BrowserModule,

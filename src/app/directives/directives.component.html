@@ -1,0 +1,8 @@
+
+<div *ngFor="let item of muestras">
+    <span>{{item}}</span>
+  </div>
+<br>
+  <div *ngFor="let item of muestras" >
+    <span appResaltarPares [valor]="item">{{item}}</span>
+  </div>
