@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { DirectivesComponent } from './directives/directives.component';
 import { ResaltarParesDirective } from './directives/resaltar-pares.directive';
+import { TemplateComponent } from './template/template.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ResaltarParesDirective } from './directives/resaltar-pares.directive';
     AppComponent,
     CardsComponent,
     DirectivesComponent,
-    ResaltarParesDirective
+    ResaltarParesDirective,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,

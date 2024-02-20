@@ -1,0 +1,9 @@
+.body{
+    position: absolute;
+    border: 5px solid;
+    border-color: black;
+    right: 15cm;
+    top: 20cm;
+    width: 7cm;
+    height: 2cm;
+}

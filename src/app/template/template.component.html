@@ -1,0 +1,14 @@
+<!--Class es con un punto y id es con numeral-->
+<div class="body">
+<div >
+    <div>Esta es la parte inicial</div>
+</div>
+
+<button class ="boton" (click)="mostrar()">Mostrar template</button>
+
+<div *ngIf="visible; ngIfElse templateLayout"></div>
+
+<ng-container *ngIf="visible" class="visibilidad" #templateLayout>
+    <h1>Hola! Soy un template</h1>
+</ng-container>
+</div>
